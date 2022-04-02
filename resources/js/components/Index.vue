@@ -1,12 +1,12 @@
 <template>
     <div>
-        Single post
+        <router-view></router-view>
     </div>
 </template>
 
 <script>
 export default {
-    name: "SinglePostComponent"
+    name: "IndexComponent"
 }
 </script>
 
