@@ -1,10 +1,12 @@
 <template>
-$END$
+    <div>
+        Index
+    </div>
 </template>
 
 <script>
 export default {
-name: "Index"
+    name: "Index"
 }
 </script>
 
