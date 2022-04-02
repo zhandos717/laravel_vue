@@ -12,7 +12,15 @@ export default new VueRouter({
             name: 'person.index',
         },
         {
-            path:'/edit', component: ()=> import('./components/Person/Edit'),
+            path:'/people/create', component: ()=> import('./components/Person/Create'),
+            name: 'person.create',
+        },
+        {
+            path:'/people/show', component: ()=> import('./components/Person/Show'),
+            name: 'person.show',
+        },
+        {
+            path:'/people/edit', component: ()=> import('./components/Person/Edit'),
             name: 'person.edit',
         }
     ]
